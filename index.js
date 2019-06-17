@@ -14,11 +14,12 @@ function increaseRankBy(n){
     }
   }
 }
+
 function deepestChild(){
   let node = document.querySelector('div#grand-node')
   let currentNode = node
   while (currentNode) {
-    currentNode = node.firstElementChild
+    currentNode = currentNode.firstElementChild
   }
   return currentNode
 }
