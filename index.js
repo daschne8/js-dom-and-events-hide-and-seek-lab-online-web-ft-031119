@@ -19,7 +19,6 @@ function deepestChild(){
   let currentNode = node
   while (currentNode) {
     currentNode = node.firstElementChild
-    }
-  return currentNode
   }
+  return currentNode
 }
